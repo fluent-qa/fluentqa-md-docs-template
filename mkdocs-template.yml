@@ -1,0 +1,21 @@
+site_name: {{site_name}}
+site_description: {{site_description}}
+{{block}}
+theme:
+  name: 'material'
+  custom_dir: 'docs/override'
+  palette:
+    primary: pink
+    accent: pink
+  logo: 'logo-white.svg'
+  favicon: 'favicon.png'
+  language: zh
+    features:
+      - navigation.instant
+      - navigation.tracking
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.expand
+      - navigation.indexes
+      - navigation.sections
+      - toc.integrate
